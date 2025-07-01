@@ -1,0 +1,24 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     test_queue
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001280, symSize: 0x3C3 }
+  - { offsetInCU: 0x50, offset: 0x50, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100001280, symSize: 0x3C3 }
+  - { offsetInCU: 0x26, offset: 0x1D4, size: 0x8, addend: 0x0, symName: _queue_create, symObjAddr: 0x0, symBinAddr: 0x100001650, symSize: 0x40 }
+  - { offsetInCU: 0x34, offset: 0x1E2, size: 0x8, addend: 0x0, symName: _queue_create, symObjAddr: 0x0, symBinAddr: 0x100001650, symSize: 0x40 }
+  - { offsetInCU: 0x5C, offset: 0x20A, size: 0x8, addend: 0x0, symName: _queue_free, symObjAddr: 0x40, symBinAddr: 0x100001690, symSize: 0x30 }
+  - { offsetInCU: 0x80, offset: 0x22E, size: 0x8, addend: 0x0, symName: _queue_isempty, symObjAddr: 0x70, symBinAddr: 0x1000016C0, symSize: 0x40 }
+  - { offsetInCU: 0xA8, offset: 0x256, size: 0x8, addend: 0x0, symName: _queue_enqueue, symObjAddr: 0xB0, symBinAddr: 0x100001700, symSize: 0x30 }
+  - { offsetInCU: 0xDA, offset: 0x288, size: 0x8, addend: 0x0, symName: _queue_front, symObjAddr: 0xE0, symBinAddr: 0x100001730, symSize: 0x30 }
+  - { offsetInCU: 0x110, offset: 0x2BE, size: 0x8, addend: 0x0, symName: _queue_dequeue, symObjAddr: 0x110, symBinAddr: 0x100001760, symSize: 0x59 }
+  - { offsetInCU: 0x26, offset: 0x345, size: 0x8, addend: 0x0, symName: _dynarray_create, symObjAddr: 0x0, symBinAddr: 0x1000017C0, symSize: 0xE0 }
+  - { offsetInCU: 0x41, offset: 0x360, size: 0x8, addend: 0x0, symName: _dynarray_create, symObjAddr: 0x0, symBinAddr: 0x1000017C0, symSize: 0xE0 }
+  - { offsetInCU: 0x69, offset: 0x388, size: 0x8, addend: 0x0, symName: _dynarray_free, symObjAddr: 0xE0, symBinAddr: 0x1000018A0, symSize: 0x70 }
+  - { offsetInCU: 0x8D, offset: 0x3AC, size: 0x8, addend: 0x0, symName: _dynarray_size, symObjAddr: 0x150, symBinAddr: 0x100001910, symSize: 0x60 }
+  - { offsetInCU: 0xB5, offset: 0x3D4, size: 0x8, addend: 0x0, symName: __dynarray_resize, symObjAddr: 0x1B0, symBinAddr: 0x100001970, symSize: 0x130 }
+  - { offsetInCU: 0x12D, offset: 0x44C, size: 0x8, addend: 0x0, symName: _dynarray_insert, symObjAddr: 0x2E0, symBinAddr: 0x100001AA0, symSize: 0xC0 }
+  - { offsetInCU: 0x16D, offset: 0x48C, size: 0x8, addend: 0x0, symName: _dynarray_get, symObjAddr: 0x3A0, symBinAddr: 0x100001B60, symSize: 0xE0 }
+  - { offsetInCU: 0x1B1, offset: 0x4D0, size: 0x8, addend: 0x0, symName: _dynarray_set, symObjAddr: 0x480, symBinAddr: 0x100001C40, symSize: 0xE0 }
+  - { offsetInCU: 0x1FF, offset: 0x51E, size: 0x8, addend: 0x0, symName: _dynarray_get_front, symObjAddr: 0x560, symBinAddr: 0x100001D20, symSize: 0x30 }
+  - { offsetInCU: 0x235, offset: 0x554, size: 0x8, addend: 0x0, symName: _dynarray_remove_front, symObjAddr: 0x590, symBinAddr: 0x100001D50, symSize: 0x28 }
+...
